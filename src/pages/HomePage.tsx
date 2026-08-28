@@ -74,14 +74,20 @@ export default function HomePage() {
       <section className="max-w-7xl mx-auto px-6 py-14">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-6">
           {quickLinks.map((q, idx) => (
-            <Reveal key={q.to} delay={idx * 90}>
+            <Reveal key={q.to} delay={idx * 90} className="h-full">
               <Link
                 to={q.to}
-                className="group block rounded-xl border border-gray-200 bg-white overflow-hidden hover:shadow-lg hover:-translate-y-0.5 transition-all"
+                className="group h-full flex flex-col rounded-xl border border-gray-200 bg-white overflow-hidden hover:shadow-lg hover:-translate-y-0.5 transition-all"
               >
                 {q.icon ? (
-                  <div className="w-full bg-[#f8e6ec]">
-                    <img src={q.icon} alt="" width={q.iconWidth} height={q.iconHeight} className="w-full h-auto" />
+                  <div className="w-full h-40 bg-[#f8e6ec] shrink-0">
+                    <img
+                      src={q.icon}
+                      alt=""
+                      width={q.iconWidth}
+                      height={q.iconHeight}
+                      className="w-full h-full object-cover"
+                    />
                   </div>
                 ) : (
                   <div className="w-10 h-10 mt-6 ml-6 rounded-lg bg-[#f8e6ec] text-[#b0264f] flex items-center justify-center font-semibold">
@@ -106,7 +112,7 @@ export default function HomePage() {
             <div className="grid grid-cols-2 sm:grid-cols-4 gap-4 mt-8">
               {[
                 { label: 'Aile Hekimi', value: siteInfo.staffSummary.doctors },
-                { label: 'Aile Sağlığı Elemanı', value: siteInfo.staffSummary.ase },
+                { label: 'Aile Sağlığı Çalışanı', value: siteInfo.staffSummary.ase },
                 { label: 'Yardımcı Personel', value: siteInfo.staffSummary.assistantHealthStaff },
                 { label: 'Hizmet Personeli', value: siteInfo.staffSummary.servicePersonnel },
               ].map((s) => (

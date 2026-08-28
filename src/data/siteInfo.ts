@@ -14,7 +14,7 @@ export const siteInfo = {
     servicePersonnel: 2,
     total: 20,
   },
-  about: `Aile Sağlığı Merkezimiz Bengiler Mahallesi'nde "A" sınıfı olarak hizmet vermektedir. 7 Aile Hekimi, 7 Aile Sağlığı Elemanı, 4 yardımcı sağlık personeli ve 2 hizmet personeli olmak üzere toplam 20 personel ile bölgemizde yaşayan vatandaşlarımıza ücretsiz birinci basamak sağlık hizmeti sunmaktayız.`,
+  about: `Aile Sağlığı Merkezimiz Bengiler Mahallesi'nde "A" sınıfı olarak hizmet vermektedir. 7 Aile Hekimi, 7 Aile Sağlığı Çalışanı, 4 yardımcı sağlık personeli ve 2 hizmet personeli olmak üzere toplam 20 personel ile bölgemizde yaşayan vatandaşlarımıza ücretsiz birinci basamak sağlık hizmeti sunmaktayız.`,
   vision: 'Birinci basamak sağlık hizmeti, sağlığın teşviki, koruyucu sağlık hizmetleri ile teşhis, tedavi ve rehabilitasyon hizmetlerinin bir arada verildiği, bireylerin hizmete kolayca ulaşabildiği, düşük maliyetle etkin ve yaygın sağlık hizmeti sunumudur.',
   mission: '2003 yılından itibaren uygulanmaya başlanan Sağlıkta Dönüşüm Programı\'nın önemli bileşenlerinden biri olan aile hekimliği, birinci basamak sağlık hizmetinin çağdaş uygulama şeklidir. Merkezimiz bu anlayışla, kayıtlı nüfusumuza koruyucu ve tedavi edici sağlık hizmetlerini bir arada sunmayı hedefler.',
   workingHours: {

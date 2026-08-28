@@ -23,14 +23,14 @@ export default function AboutPage() {
           </Reveal>
         </div>
 
-        <h2 className="text-xl font-semibold text-[#26232a] mt-12 mb-4">Aile Hekimlerimiz ve Aile Sağlığı Elemanlarımız</h2>
+        <h2 className="text-xl font-semibold text-[#26232a] mt-12 mb-4">Aile Hekimlerimiz ve Aile Sağlığı Çalışanlarımız</h2>
         <Reveal className="overflow-x-auto rounded-xl border border-gray-200 bg-white">
           <table className="w-full text-sm">
             <thead className="bg-gray-50 text-left text-gray-500">
               <tr>
-                <th className="px-4 py-3 font-medium">Kod</th>
+                <th className="px-4 py-3 font-medium">Aile Hekimliği Birimi</th>
                 <th className="px-4 py-3 font-medium">Aile Hekimi</th>
-                <th className="px-4 py-3 font-medium">Aile Sağlığı Elemanı</th>
+                <th className="px-4 py-3 font-medium">Aile Sağlığı Çalışanı</th>
               </tr>
             </thead>
             <tbody>

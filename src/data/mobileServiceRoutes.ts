@@ -109,7 +109,7 @@ export const mobileServiceRoutes: DoctorMobileService[] = [
         weekPattern: '4. Hafta',
         stops: [
           { place: 'Yeşilyurt', population: 75, timeRange: '09:00 - 11:00' },
-          { place: 'Gönlüce', population: 173, timeRange: '11:30 - 15:30' },
+          { place: 'Günlüce', population: 173, timeRange: '11:30 - 15:30' },
         ],
       },
     ],
@@ -159,7 +159,7 @@ export const mobileServiceRoutes: DoctorMobileService[] = [
         weekPattern: '2. Hafta',
         stops: [
           { place: 'Ormancık', population: 266, timeRange: '09:20 - 11:30' },
-          { place: 'Kömbetli', population: 226, timeRange: '11:45 - 14:15' },
+          { place: 'Kümbetli', population: 226, timeRange: '11:45 - 14:15' },
         ],
       },
       {
@@ -170,7 +170,7 @@ export const mobileServiceRoutes: DoctorMobileService[] = [
         weekPattern: '4. Hafta',
         stops: [
           { place: 'Ormancık', population: 266, timeRange: '08:20 - 11:30' },
-          { place: 'Kömbetli (güzergah dışı)', population: 226, timeRange: '11:45 - 14:15' },
+          { place: 'Kümbetli (güzergah dışı)', population: 226, timeRange: '11:45 - 14:15' },
         ],
       },
     ],

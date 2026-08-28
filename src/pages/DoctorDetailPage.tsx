@@ -28,7 +28,7 @@ export default function DoctorDetailPage() {
       <section className="max-w-4xl mx-auto px-6 py-12">
         <div className="rounded-xl border border-gray-200 bg-white p-6 mb-8 flex flex-wrap gap-8">
           <div>
-            <div className="text-xs text-gray-400 uppercase tracking-wide mb-1">Aile Sağlığı Elemanı</div>
+            <div className="text-xs text-gray-400 uppercase tracking-wide mb-1">Aile Sağlığı Çalışanı</div>
             <div className="font-medium text-[#26232a]">{doctor.ase}</div>
           </div>
           <div>

@@ -81,7 +81,7 @@ export const doctors: Doctor[] = [
   {
     id: 'yavuz-selim-coruk',
     code: '60.06.019',
-    name: 'Dr. Yavuz Selim Çoruk',
+    name: 'Dr. Yavuz Selim Coruk',
     title: 'Aile Hekimi',
     ase: 'Aysun Gül Özmen',
     mobileServiceDay: null,

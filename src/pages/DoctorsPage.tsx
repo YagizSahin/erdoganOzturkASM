@@ -22,7 +22,7 @@ export default function DoctorsPage() {
                 </div>
                 <h3 className="font-semibold text-[#26232a]">{doc.name}</h3>
                 <p className="text-sm text-gray-500 mt-1">{doc.code} Nolu Aile Hekimi</p>
-                <p className="text-xs text-gray-400 mt-1">ASE: {doc.ase}</p>
+                <p className="text-xs text-gray-400 mt-1">ASÇ: {doc.ase}</p>
                 <span className="inline-block mt-4 text-sm text-[#b0264f] font-medium">Detayları Görüntüle →</span>
               </Link>
             </Reveal>

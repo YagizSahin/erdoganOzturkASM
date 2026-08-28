@@ -3,7 +3,6 @@ import anneIcon from '../assets/services/anne.png'
 import bebekIcon from '../assets/services/bebek.png'
 import bagisiklamaIcon from '../assets/services/bagisiklama.png'
 import tedaviIcon from '../assets/services/tedavi.png'
-import evdeIcon from '../assets/services/evde.png'
 import geziciIcon from '../assets/services/gezici.png'
 import egitimIcon from '../assets/services/egitim.png'
 
@@ -42,11 +41,6 @@ export const serviceCategories: ServiceCategory[] = [
     title: 'Tedavi Edici Sağlık Hizmetleri',
     description: 'Poliklinik muayenesi, küçük cerrahi müdahaleler ve gerekli sağlık kurumlarına sevk işlemleri.',
     icon: tedaviIcon,
-  },
-  {
-    title: 'Evde Sağlık Hizmetleri',
-    description: 'Evden çıkamayan hastalara yönelik yerinde muayene ve bakım hizmetleri.',
-    icon: evdeIcon,
   },
   {
     title: 'Gezici ve Yerinde Sağlık Hizmetleri',
