@@ -41,7 +41,7 @@ export interface ApplicationContact {
 
 export const firstApplicationContact: ApplicationContact = {
   title: 'İlk Müracaat Yeri',
-  name: 'Dr. Yavuz Selim Coruk',
+  name: 'Dr. Ruveyda Yurtseven',
   role: '60.06.019 Nolu Aile Hekimi',
   address: 'Niksar Merkez Şehit J. Er Erdoğan Öztürk ASM.',
   phone: '0356 527 28 23',

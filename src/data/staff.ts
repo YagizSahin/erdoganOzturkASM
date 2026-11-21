@@ -9,5 +9,5 @@ export const supportStaff: StaffMember[] = [
   { role: 'Hemşire', name: 'Büşra Sıngıl' },
   { role: 'Tıbbi Sekreter', name: 'Nisa Nur Reşadiyeli' },
   { role: 'Hizmetli', name: 'Alaaddin Çıtak' },
-  { role: 'Hizmetli', name: 'Emine Aras' },
+  { role: 'Hizmetli', name: 'Emine Ceyhan' },
 ]
