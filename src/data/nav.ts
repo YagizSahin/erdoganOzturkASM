@@ -18,5 +18,6 @@ export const navItems: NavItem[] = [
   { label: 'Gezici / Yerinde Hizmet', to: '/gezici-hizmet' },
   { label: 'Sağlık Hesaplamaları', to: '/saglik-hesaplamalari' },
   { label: 'Galeri', to: '/galeri' },
+  { label: 'Tanıtım Videosu', to: '/tanitim-videosu' },
   { label: 'İletişim', to: '/iletisim' },
 ]

@@ -9,6 +9,7 @@ import DoctorDetailPage from './pages/DoctorDetailPage'
 import MobileServicePage from './pages/MobileServicePage'
 import HealthCalculatorsPage from './pages/HealthCalculatorsPage'
 import GalleryPage from './pages/GalleryPage'
+import PromoVideoPage from './pages/PromoVideoPage'
 import ContactPage from './pages/ContactPage'
 
 function App() {
@@ -24,6 +25,7 @@ function App() {
         <Route path="/gezici-hizmet" element={<MobileServicePage />} />
         <Route path="/saglik-hesaplamalari" element={<HealthCalculatorsPage />} />
         <Route path="/galeri" element={<GalleryPage />} />
+        <Route path="/tanitim-videosu" element={<PromoVideoPage />} />
         <Route path="/iletisim" element={<ContactPage />} />
       </Routes>
     </Layout>

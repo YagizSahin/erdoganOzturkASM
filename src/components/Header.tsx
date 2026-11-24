@@ -9,7 +9,7 @@ export default function Header() {
   const [mobileSubOpen, setMobileSubOpen] = useState<string | null>(null)
 
   const linkClass = ({ isActive }: { isActive: boolean }) =>
-    `px-3 py-2 text-sm font-medium rounded transition-colors ${
+    `px-2.5 py-2 text-sm font-medium rounded whitespace-nowrap transition-colors ${
       isActive ? 'text-[#b0264f]' : 'text-gray-700 hover:text-[#b0264f]'
     }`
 
@@ -29,19 +29,19 @@ export default function Header() {
       </div>
 
       <div className="flex items-center justify-between px-4 md:px-6 py-3 max-w-7xl mx-auto">
-        <Link to="/" className="flex items-center gap-3">
+        <Link to="/" className="flex items-center gap-3 shrink-0">
           <img src={logo} alt="T.C. Sağlık Bakanlığı" className="w-11 h-11 shrink-0" />
-          <div className="leading-tight">
+          <div className="leading-tight whitespace-nowrap">
             <div className="font-semibold text-[#26232a] text-sm md:text-base">T.C. Sağlık Bakanlığı</div>
             <div className="text-xs md:text-sm text-gray-600">{siteInfo.shortName}</div>
           </div>
         </Link>
 
-        <nav className="hidden lg:flex items-center gap-1">
+        <nav className="hidden xl:flex items-center gap-0.5">
           {navItems.map((item) =>
             item.children ? (
               <div key={item.label} className="relative group">
-                <button className="px-3 py-2 text-sm font-medium rounded text-gray-700 hover:text-[#b0264f] transition-colors">
+                <button className="px-2.5 py-2 text-sm font-medium rounded whitespace-nowrap text-gray-700 hover:text-[#b0264f] transition-colors">
                   {item.label}
                 </button>
                 <div className="absolute left-0 top-full hidden group-hover:block bg-white shadow-lg rounded-md py-2 min-w-[220px] border border-gray-100">
@@ -65,7 +65,7 @@ export default function Header() {
         </nav>
 
         <button
-          className="lg:hidden p-2 text-gray-700"
+          className="xl:hidden p-2 text-gray-700"
           aria-label="Menüyü aç/kapat"
           onClick={() => setMobileOpen((v) => !v)}
         >
@@ -80,7 +80,7 @@ export default function Header() {
       </div>
 
       {mobileOpen && (
-        <nav className="lg:hidden border-t border-gray-100 bg-white px-4 py-3 flex flex-col gap-1">
+        <nav className="xl:hidden border-t border-gray-100 bg-white px-4 py-3 flex flex-col gap-1">
           {navItems.map((item) =>
             item.children ? (
               <div key={item.label}>
